@@ -19,15 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='p-4'>
+      <body className='p-4 overflow-hidden'>
         <NavMenu />
-        <div className='flex flex-row w-full'>
-          <div className="flex flex-column place-items-end mb-10">
-            <Image src={GitHubIcon} alt='GitHub Icon' width={40} height={40} />
+        <div className='flex flex-row w-full h-full'>
+          <div className="flex flex-col justify-end mb-20">
             <Image src={BitBucketIcon} alt='BitBucket Icon' width={43} height={43} />
+            <Image className='mt-4' src={GitHubIcon} alt='GitHub Icon' width={40} height={40} />
           </div>
-          <section className='w-full'>
-            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 ml-5 mr-2 p-5'>
+          <section className='w-full grow'>
+            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 ml-5 mr-2 p-5 h-[90vh]'>
               <div className='mb-4'>
                 <h3 className='text-3xl'>Roberto Rivera</h3>
                 <span className='text-sm'>Front-End Web Developer</span>
