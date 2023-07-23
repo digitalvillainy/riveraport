@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backShadow: {
+        '3xl': '0 35px 60px -15px #AD00EA'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
