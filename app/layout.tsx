@@ -1,9 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import NavMenu from './NavMenu/NavMenu'
+import NavMenu from '../components/NavMenu/NavMenu'
 import Image from 'next/image'
 import GitHubIcon from '../public/GitHub.svg'
 import BitBucketIcon from '../public/BitBucket.svg'
+import RbmLogo from '../public/RbmLogo.svg'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Roberto Rivera | Front-End Web Developer',
@@ -19,27 +21,37 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='p-4 overflow-hidden'>
+      <body className='p-4'>
         <NavMenu />
-        <div className='flex flex-row w-full h-full'>
-          <div className="flex flex-col justify-end mb-20">
-            <Image src={BitBucketIcon} alt='BitBucket Icon' width={43} height={43} />
-            <Image className='mt-4' src={GitHubIcon} alt='GitHub Icon' width={40} height={40} />
+        <div className='flex flex-row w-full h-fit'>
+          <div className="flex flex-col justify-end mb-16">
+            <Link href={'https://www.redbannermedia.com'} target='_blank'>
+              <Image className='mb-3' src={RbmLogo} alt='Logo for Red Banner Media' width={43} height={43} />
+            </Link>
+            <Link href={'https://www.bitbucket.com'} target='_blank'>
+              <Image src={BitBucketIcon} alt='BitBucket Icon' width={43} height={43} />
+            </Link>
+            <Link href={'https://www.github.com/digitalvillainy'} target='_blank'>
+              <Image className='mt-4' src={GitHubIcon} alt='GitHub Icon' width={40} height={40} />
+            </Link>
           </div>
-          <section className='w-full grow'>
-            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 ml-5 mr-2 p-5 h-[90vh]'>
+
+          <div className='w-full grow'>
+            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 ml-5 mr-2 p-5 grow'>
               <div className='mb-4'>
-                <h3 className='text-3xl'>Roberto Rivera</h3>
-                <span className='text-sm'>Front-End Web Developer</span>
+                <h1 className='text-5xl'>Roberto Rivera</h1>
+                <span className='text-lg'>Front-End Web Developer</span>
               </div>
-              {children}
+              <div className='w-6/12 mx-auto flex flex-col'>
+                {children}
+              </div>
             </main>
             <footer className='flex flex-row justify-end'>
               Made By Roberto Rivera &#169; {currentYear}
             </footer>
-          </section>
+          </div>
         </div>
       </body>
     </html>
-  )
+  );
 }
