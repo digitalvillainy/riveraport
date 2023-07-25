@@ -25,10 +25,11 @@ import MysqlIcon from '@/public/MysqlIcon.svg';
 import StoryBookIcon from '@/public/StorybookIcon.svg';
 import FigmaIcon from '@/public/FigmaIcon.svg';
 
+// TODO: Continue working on responsiveness
 export default function Home() {
   return (
     <section className="flex flex-col">
-      <div className="flex flex-row relative" id="about">
+      <div className="flex flex-col lg:flex-row relative" id="about">
         <BoxContainer width="w-fit" height="h-fit">
           <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
         </BoxContainer>
@@ -130,7 +131,7 @@ export default function Home() {
 
           <div className="flex flex-col justify-center my-8">
             <span className="ml-2 font-extrabold text-cyan-400">Software & Tools</span>
-            <div className="flex flex-row items-end my-4">
+            <div className="flex flex-row flex-wrap items-end my-4">
               <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
                 <span className="text-red-800 font-extrabold">GitHub</span>

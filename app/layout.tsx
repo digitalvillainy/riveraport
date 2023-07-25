@@ -20,10 +20,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className='p-4'>
+    <html lang="en" className='w-fit'>
+      <body className='p-4 w-fit'>
         <NavMenu />
-        <div className='flex flex-row w-full h-fit'>
+        <div className='flex flex-row w-11/12 mx-auto h-fit'>
           <div className="flex flex-col justify-end mb-16">
             <Link href={'https://www.redbannermedia.com'} target='_blank'>
               <Image className='mb-3' src={RbmLogo} alt='Logo for Red Banner Media' width={43} height={43} />
@@ -42,7 +42,7 @@ export default function RootLayout({
                 <h1 className='text-5xl'>Roberto Rivera</h1>
                 <span className='text-lg'>Front-End Web Developer</span>
               </div>
-              <div className='w-8/12 mx-auto flex flex-col'>
+              <div className='w-full lg:w-8/12 lg:mx-auto flex flex-col'>
                 {children}
               </div>
             </main>

@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
   background: linear-gradient(to bottom, #003E50, #000);
-  height: 100%;
-  width: 100%;
   color: #fff;
   font-family: 'Lexend', sans-serif;
 }
