@@ -42,7 +42,7 @@ export default function RootLayout({
                 <h1 className='text-5xl'>Roberto Rivera</h1>
                 <span className='text-lg'>Front-End Web Developer</span>
               </div>
-              <div className='w-6/12 mx-auto flex flex-col'>
+              <div className='w-8/12 mx-auto flex flex-col'>
                 {children}
               </div>
             </main>

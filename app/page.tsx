@@ -28,7 +28,7 @@ import FigmaIcon from '@/public/FigmaIcon.svg';
 export default function Home() {
   return (
     <section className="flex flex-col">
-      <div className="flex flex-row relative">
+      <div className="flex flex-row relative" id="about">
         <BoxContainer width="w-fit" height="h-fit">
           <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
         </BoxContainer>
@@ -53,37 +53,37 @@ export default function Home() {
         <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-12 -right-14">About</h4>
       </div>
 
-      <div className="flex flex-row justify-start items-start relative">
+      <div className="flex flex-row justify-start items-start relative" id="technology">
         <h4 className="text-3xl text-cyan-400 -rotate-90 absolute bottom-20 -left-20">Technology</h4>
         <BoxContainer width="w-full" height="h-min">
           <div className="flex flex-col">
             <span className="ml-2 font-extrabold text-cyan-400">Languages</span>
             <div className="flex flex-row flex-wrap place-items-center my-4">
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={Html5icon} alt="Html Icon" />
                 <span className="text-red-800 font-extrabold">HTML 5</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={JSicon} alt="JavaScript Icon" />
                 <span className="text-red-800 font-extrabold">JavaScript</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={CssIcon} alt="CSS3 Icon" />
                 <span className="text-red-800 font-extrabold">CSS</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={TsIcon} alt="Typescript Icon" />
                 <span className="text-red-800 font-extrabold">Typescript</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={PhpIcon} alt="PHP Icon" />
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={NodeIcon} alt="Node Icon" />
                 <span className="text-red-800 font-extrabold">Node JS</span>
               </div>
 
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3" src={MysqlIcon} alt="MySql Icon" />
               </div>
             </div>
@@ -131,32 +131,32 @@ export default function Home() {
           <div className="flex flex-col justify-center my-8">
             <span className="ml-2 font-extrabold text-cyan-400">Software & Tools</span>
             <div className="flex flex-row items-end my-4">
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
                 <span className="text-red-800 font-extrabold">GitHub</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={GitIcon} alt="Git Icon" />
                 <span className="text-red-800 font-extrabold">Git</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={BitBucketIcon} alt="BitBucket Icon" />
                 <span className="text-red-800 font-extrabold">BitBucket</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={ApacheIcon} alt="Apache Icon" />
                 <span className="text-red-800 font-extrabold">Apache</span>
               </div>
 
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={DockerIcon} alt="Docker Icon" />
                 <span className="text-red-800 font-extrabold">Docker</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={StoryBookIcon} alt="StoryBook Icon" />
                 <span className="text-red-800 font-extrabold">Storybook</span>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={FigmaIcon} alt="Figma Icon" />
                 <span className="text-red-800 font-extrabold">Figma</span>
               </div>
@@ -165,7 +165,7 @@ export default function Home() {
         </BoxContainer>
       </div>
 
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full" id="experience">
         <div className="flex flex-row relative">
           <BoxContainer width="w-6/12" height="grow">
             <span className="font-extrabold text-cyan-400">
@@ -199,24 +199,26 @@ export default function Home() {
           <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-24 -right-24">Experience</h4>
         </div>
 
-        <BoxContainer width="w-fit" height="h-min">
-          <span className="font-extrabold text-cyan-400">
-            Eagle Productivity Solutions, Rochester, NY — Full Stack Web Developer
-          </span>
-          <p className="my-2 font-extrabold">August  2018 - January 2020</p>
-          <p className="my-2">
-            Develop websites and web/mobile applications. Coordinate with a team of other developers and programmers,
-            Project Managers, Graphic Designers, and Production Staff.
-          </p>
-          <p className="my-2">
-            Work with writers and instructional designers to understand content and offer design, layout, and
-            user-interaction/functionality suggestions as needed.
-          </p>
-          <p className="my-2">
-            Consult with client and internal team on best use of client infrastructure. (Existing web servers, SharePoint, External platforms)
-          </p>
-        </BoxContainer>
+        <div className="flex flex-row w-full">
+          <BoxContainer width="w-full pr-8" height="h-min">
+            <span className="font-extrabold text-cyan-400">
+              Eagle Productivity Solutions, Rochester, NY — Full Stack Web Developer
+            </span>
+            <p className="my-2 font-extrabold">August  2018 - January 2020</p>
+            <p className="my-2">
+              Develop websites and web/mobile applications. Coordinate with a team of other developers and programmers,
+              Project Managers, Graphic Designers, and Production Staff.
+            </p>
+            <p className="my-2">
+              Work with writers and instructional designers to understand content and offer design, layout, and
+              user-interaction/functionality suggestions as needed.
+            </p>
+            <p className="my-2">
+              Consult with client and internal team on best use of client infrastructure. (Existing web servers, SharePoint, External platforms)
+            </p>
+          </BoxContainer>
+        </div>
       </div>
     </section>
-  )
+  );
 }
