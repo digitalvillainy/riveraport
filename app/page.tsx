@@ -21,11 +21,14 @@ import BitBucketIcon from '@/public/BitBucket.svg';
 import ApacheIcon from '@/public/ApacheIcon.svg';
 import GitIcon from '@/public/GitIcon.svg';
 import DockerIcon from '@/public/DockerIcon.svg';
+import MysqlIcon from '@/public/MysqlIcon.svg';
+import StoryBookIcon from '@/public/StorybookIcon.svg';
+import FigmaIcon from '@/public/FigmaIcon.svg';
 
 export default function Home() {
   return (
     <section className="flex flex-col">
-      <div className="flex flex-row">
+      <div className="flex flex-row relative">
         <BoxContainer width="w-fit" height="h-fit">
           <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
         </BoxContainer>
@@ -47,6 +50,7 @@ export default function Home() {
             framework like Alpinejs on simple static pages. Regardless, I’m always excited to find a new challenge.
           </p>
         </BoxContainer>
+        <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-12 -right-14">About</h4>
       </div>
 
       <div className="flex flex-row justify-start items-start relative">
@@ -54,7 +58,7 @@ export default function Home() {
         <BoxContainer width="w-full" height="h-min">
           <div className="flex flex-col">
             <span className="ml-2 font-extrabold text-cyan-400">Languages</span>
-            <div className="flex flex-row flex-wrap justify-start place-items-center my-4">
+            <div className="flex flex-row flex-wrap place-items-center my-4">
               <div className="flex flex-col text-center">
                 <Image className="mx-3" src={Html5icon} alt="Html Icon" />
                 <span className="text-red-800 font-extrabold">HTML 5</span>
@@ -78,12 +82,16 @@ export default function Home() {
                 <Image className="mx-3" src={NodeIcon} alt="Node Icon" />
                 <span className="text-red-800 font-extrabold">Node JS</span>
               </div>
+
+              <div className="flex flex-col text-center">
+                <Image className="mx-3" src={MysqlIcon} alt="MySql Icon" />
+              </div>
             </div>
           </div>
 
           <div className="flex flex-col justify-center my-8">
             <span className="ml-2 font-extrabold text-cyan-400">Libraries & Frameworks</span>
-            <div className="flex flex-row flex-wrap justify-center items-end my-4">
+            <div className="flex flex-row flex-wrap items-end my-4">
               <div className="flex flex-col text-center">
                 <Image className="mx-3" src={ReactIcon} alt="React Icon" />
                 <span className="text-red-800 font-extrabold">React</span>
@@ -122,7 +130,7 @@ export default function Home() {
 
           <div className="flex flex-col justify-center my-8">
             <span className="ml-2 font-extrabold text-cyan-400">Software & Tools</span>
-            <div className="flex flex-row justify-start items-end my-4">
+            <div className="flex flex-row items-end my-4">
               <div className="flex flex-col text-center">
                 <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
                 <span className="text-red-800 font-extrabold">GitHub</span>
@@ -144,15 +152,22 @@ export default function Home() {
                 <Image className="mx-3 w-16 h-16" src={DockerIcon} alt="Docker Icon" />
                 <span className="text-red-800 font-extrabold">Docker</span>
               </div>
+              <div className="flex flex-col text-center">
+                <Image className="mx-3 w-16 h-16" src={StoryBookIcon} alt="StoryBook Icon" />
+                <span className="text-red-800 font-extrabold">Storybook</span>
+              </div>
+              <div className="flex flex-col text-center">
+                <Image className="mx-3 w-16 h-16" src={FigmaIcon} alt="Figma Icon" />
+                <span className="text-red-800 font-extrabold">Figma</span>
+              </div>
             </div>
           </div>
         </BoxContainer>
       </div>
 
       <div className="flex flex-col w-full">
-        <h2 className="text-3xl text-cyan-400 w-full text-center">Experience</h2>
-        <div className="flex flex-row">
-          <BoxContainer width="w-6/12" height="h-min">
+        <div className="flex flex-row relative">
+          <BoxContainer width="w-6/12" height="grow">
             <span className="font-extrabold text-cyan-400">
               Productive Edge, Chicago Illinois (Remote) — Front-End Web Developer III
             </span>
@@ -180,6 +195,8 @@ export default function Home() {
             <p className="my-2">Reviewed, tested and debugged code from other developers. Co-Designed API backend made with PHP and MySQL.</p>
             <p className="my-2">Removed superfluous aspects of the Front-End  codebase to match needs of project and Vue best practices.</p>
           </BoxContainer>
+
+          <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-24 -right-24">Experience</h4>
         </div>
 
         <BoxContainer width="w-fit" height="h-min">
