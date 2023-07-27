@@ -29,11 +29,11 @@ export default function Home() {
   return (
     <section className="flex flex-col justify-items-center">
       <div className="flex flex-col lg:flex-row relative w-full" id="about">
-        <BoxContainer width="w-fit my-4" height="h-fit">
+        <BoxContainer classes="w-fit my-4 h-fit">
           <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
         </BoxContainer>
         <h4 className="lg:hidden text-3xl text-cyan-400 text-center">About</h4>
-        <BoxContainer width="w-full mt-6 mt-0 lg:w-11/12 lg:mx-auto" height="h-fit">
+        <BoxContainer classes="w-full mt-6 mt-0 lg:w-11/12 lg:mx-auto h-fit">
           <h1 className="text-2xl text-cyan-400 mb-8 font-extrabold">
             Hello Everyone!
           </h1>
@@ -57,7 +57,7 @@ export default function Home() {
       <div className="flex flex-col justify-start items-start mt-6 lg:mt-0 lg:flex-row lg:relative w-full" id="technology">
         <h4 className="text-3xl text-cyan-400 -rotate-90 absolute bottom-20 -left-20 hidden lg:block">Technology</h4>
         <h4 className="text-3xl text-cyan-400 text-center w-full lg:hidden">Technology</h4>
-        <BoxContainer width="w-full" height="h-min">
+        <BoxContainer classes="w-full h-min">
           <div className="flex flex-col">
             <span className="ml-2 font-extrabold text-center text-cyan-400">Languages</span>
             <div className="flex flex-row flex-wrap justify-between place-items-center my-4">
@@ -170,7 +170,7 @@ export default function Home() {
       <div className="flex flex-col w-full mt-8" id="experience">
         <div className="flex flex-col lg:flex-row w-full lg:relative">
           <h4 className="text-3xl text-cyan-400 text-center lg:hidden">Experience</h4>
-          <BoxContainer width="w-full mt-4 lg:w-6/12" height="grow">
+          <BoxContainer classes="w-full mt-4 lg:w-6/12 grow">
             <span className="font-extrabold text-cyan-400">
               Productive Edge, Chicago Illinois (Remote) — Front-End Web Developer III
             </span>
@@ -185,7 +185,7 @@ export default function Home() {
               Answered questions from junior developers and collaborated on solutions. Reviewed, tested and debugged code from other developers.
             </p>
           </BoxContainer>
-          <BoxContainer width="w-full lg:w-6/12 my-4" height="h-min">
+          <BoxContainer classes="w-full lg:w-6/12 my-4 h-min">
             <span className="font-extrabold text-cyan-400">
               Red Banner Media, LLC, Oneonta, NY — Full Stack Web Developer, CEO
             </span>
@@ -203,7 +203,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row w-full">
-          <BoxContainer width="w-full pr-8" height="h-min">
+          <BoxContainer classes="w-full pr-8 h-min">
             <span className="font-extrabold text-cyan-400">
               Eagle Productivity Solutions, Rochester, NY — Full Stack Web Developer
             </span>
