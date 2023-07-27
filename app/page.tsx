@@ -25,19 +25,19 @@ import MysqlIcon from '@/public/MysqlIcon.svg';
 import StoryBookIcon from '@/public/StorybookIcon.svg';
 import FigmaIcon from '@/public/FigmaIcon.svg';
 
-// TODO: Continue working on responsiveness
 export default function Home() {
   return (
-    <section className="flex flex-col">
-      <div className="flex flex-col lg:flex-row relative" id="about">
-        <BoxContainer width="w-fit" height="h-fit">
+    <section className="flex flex-col justify-items-center">
+      <div className="flex flex-col lg:flex-row relative w-full" id="about">
+        <BoxContainer width="w-fit my-4" height="h-fit">
           <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
         </BoxContainer>
-        <BoxContainer width="w-11/12" height="h-fit">
-          <h1 className="text-5xl text-cyan-400 mb-8 font-extrabold">
+        <h4 className="lg:hidden text-3xl text-cyan-400 text-center">About</h4>
+        <BoxContainer width="w-full mt-6 mt-0 lg:w-11/12 lg:mx-auto" height="h-fit">
+          <h1 className="text-2xl text-cyan-400 mb-8 font-extrabold">
             Hello Everyone!
           </h1>
-          <span className="text-2xl font-bold text-cyan-400">
+          <span className="text-lg font-bold text-cyan-400">
             Looking for someone that can make something for the web? I love making things for the web!
           </span>
           <p className="mt-2 mb-4">
@@ -51,40 +51,41 @@ export default function Home() {
             framework like Alpinejs on simple static pages. Regardless, I’m always excited to find a new challenge.
           </p>
         </BoxContainer>
-        <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-12 -right-14">About</h4>
+        <h4 className="hidden lg:block text-3xl text-cyan-400 rotate-90 absolute bottom-12 -right-14">About</h4>
       </div>
 
-      <div className="flex flex-row justify-start items-start relative" id="technology">
-        <h4 className="text-3xl text-cyan-400 -rotate-90 absolute bottom-20 -left-20">Technology</h4>
+      <div className="flex flex-col justify-start items-start mt-6 lg:mt-0 lg:flex-row lg:relative w-full" id="technology">
+        <h4 className="text-3xl text-cyan-400 -rotate-90 absolute bottom-20 -left-20 hidden lg:block">Technology</h4>
+        <h4 className="text-3xl text-cyan-400 text-center w-full lg:hidden">Technology</h4>
         <BoxContainer width="w-full" height="h-min">
           <div className="flex flex-col">
-            <span className="ml-2 font-extrabold text-cyan-400">Languages</span>
-            <div className="flex flex-row flex-wrap place-items-center my-4">
-              <div className="flex flex-col text-center mx-6">
-                <Image className="mx-3" src={Html5icon} alt="Html Icon" />
+            <span className="ml-2 font-extrabold text-center text-cyan-400">Languages</span>
+            <div className="flex flex-row flex-wrap justify-between place-items-center my-4">
+              <div className="flex flex-col text-center lg:mx-6">
+                <Image className="mx-3 w-14 h-14" src={Html5icon} alt="Html Icon" />
                 <span className="text-red-800 font-extrabold">HTML 5</span>
               </div>
-              <div className="flex flex-col text-center mx-6">
-                <Image className="mx-3" src={JSicon} alt="JavaScript Icon" />
+              <div className="flex flex-col text-center lg:mx-6">
+                <Image className="mx-3 w-14 h-14" src={JSicon} alt="JavaScript Icon" />
                 <span className="text-red-800 font-extrabold">JavaScript</span>
               </div>
-              <div className="flex flex-col text-center mx-6">
+              <div className="flex flex-col text-center lg:mx-6">
                 <Image className="mx-3" src={CssIcon} alt="CSS3 Icon" />
                 <span className="text-red-800 font-extrabold">CSS</span>
               </div>
-              <div className="flex flex-col text-center mx-6">
+              <div className="flex flex-col text-center lg:mx-6">
                 <Image className="mx-3" src={TsIcon} alt="Typescript Icon" />
                 <span className="text-red-800 font-extrabold">Typescript</span>
               </div>
-              <div className="flex flex-col text-center mx-6">
+              <div className="flex flex-col text-center lg:mx-6">
                 <Image className="mx-3" src={PhpIcon} alt="PHP Icon" />
               </div>
-              <div className="flex flex-col text-center mx-6">
+              <div className="flex flex-col text-center lg:mx-6">
                 <Image className="mx-3" src={NodeIcon} alt="Node Icon" />
                 <span className="text-red-800 font-extrabold">Node JS</span>
               </div>
 
-              <div className="flex flex-col text-center mx-6">
+              <div className="flex flex-col text-center lg:mx-6">
                 <Image className="mx-3" src={MysqlIcon} alt="MySql Icon" />
               </div>
             </div>
@@ -92,7 +93,7 @@ export default function Home() {
 
           <div className="flex flex-col justify-center my-8">
             <span className="ml-2 font-extrabold text-cyan-400">Libraries & Frameworks</span>
-            <div className="flex flex-row flex-wrap items-end my-4">
+            <div className="flex flex-row justify-between flex-wrap items-end my-4">
               <div className="flex flex-col text-center">
                 <Image className="mx-3" src={ReactIcon} alt="React Icon" />
                 <span className="text-red-800 font-extrabold">React</span>
@@ -130,8 +131,8 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col justify-center my-8">
-            <span className="ml-2 font-extrabold text-cyan-400">Software & Tools</span>
-            <div className="flex flex-row flex-wrap items-end my-4">
+            <span className="ml-2 text-center font-extrabold text-cyan-400">Software & Tools</span>
+            <div className="flex flex-row justify-center flex-wrap items-end my-4">
               <div className="flex flex-col text-center mx-6">
                 <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
                 <span className="text-red-800 font-extrabold">GitHub</span>
@@ -166,9 +167,10 @@ export default function Home() {
         </BoxContainer>
       </div>
 
-      <div className="flex flex-col w-full" id="experience">
-        <div className="flex flex-row relative">
-          <BoxContainer width="w-6/12" height="grow">
+      <div className="flex flex-col w-full mt-8" id="experience">
+        <div className="flex flex-col lg:flex-row w-full lg:relative">
+          <h4 className="text-3xl text-cyan-400 text-center lg:hidden">Experience</h4>
+          <BoxContainer width="w-full mt-4 lg:w-6/12" height="grow">
             <span className="font-extrabold text-cyan-400">
               Productive Edge, Chicago Illinois (Remote) — Front-End Web Developer III
             </span>
@@ -183,7 +185,7 @@ export default function Home() {
               Answered questions from junior developers and collaborated on solutions. Reviewed, tested and debugged code from other developers.
             </p>
           </BoxContainer>
-          <BoxContainer width="w-6/12" height="h-min">
+          <BoxContainer width="w-full lg:w-6/12 my-4" height="h-min">
             <span className="font-extrabold text-cyan-400">
               Red Banner Media, LLC, Oneonta, NY — Full Stack Web Developer, CEO
             </span>
@@ -197,7 +199,7 @@ export default function Home() {
             <p className="my-2">Removed superfluous aspects of the Front-End  codebase to match needs of project and Vue best practices.</p>
           </BoxContainer>
 
-          <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-24 -right-24">Experience</h4>
+          <h4 className="text-3xl text-cyan-400 rotate-90 absolute bottom-24 -right-24 hidden lg:block">Experience</h4>
         </div>
 
         <div className="flex flex-row w-full">
@@ -212,7 +214,7 @@ export default function Home() {
             </p>
             <p className="my-2">
               Work with writers and instructional designers to understand content and offer design, layout, and
-              user-interaction/functionality suggestions as needed.
+              user-interaction/ functionality suggestions as needed.
             </p>
             <p className="my-2">
               Consult with client and internal team on best use of client infrastructure. (Existing web servers, SharePoint, External platforms)

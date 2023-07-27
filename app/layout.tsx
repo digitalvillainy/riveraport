@@ -21,10 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='w-fit'>
-      <body className='p-4 w-fit'>
+      <body className='w-fit'>
         <NavMenu />
-        <div className='flex flex-row w-11/12 mx-auto h-fit'>
-          <div className="flex flex-col justify-end mb-16">
+        <div className='flex flex-col lg:flex-row lg:w-11/12 lg:mx-auto w-11/12 mx-auto h-fit'>
+          <div className="lg:flex flex-col justify-end mb-16 mr-4 hidden">
             <Link href={'https://www.redbannermedia.com'} target='_blank'>
               <Image className='mb-3' src={RbmLogo} alt='Logo for Red Banner Media' width={43} height={43} />
             </Link>
@@ -37,9 +37,9 @@ export default function RootLayout({
           </div>
 
           <div className='w-full grow'>
-            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 ml-5 mr-2 p-5 grow'>
+            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 p-5 grow w-full'>
               <div className='mb-4'>
-                <h1 className='text-5xl'>Roberto Rivera</h1>
+                <h1 className='text-4xl'>Roberto Rivera</h1>
                 <span className='text-lg'>Front-End Web Developer</span>
               </div>
               <div className='w-full lg:w-8/12 lg:mx-auto flex flex-col'>
