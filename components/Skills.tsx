@@ -32,7 +32,7 @@ export default function Skills() {
       <h4 className="text-3xl text-cyan-400 text-center w-full lg:hidden">Technology</h4>
       <BoxContainer classes="w-full h-min">
         <div className="flex flex-col">
-          <span className="ml-2 font-extrabold text-center text-cyan-400">Languages</span>
+          <p className="ml-2 font-extrabold w-full text-center lg:text-left text-cyan-400">Languages</p>
           <div className="flex flex-row flex-wrap justify-between place-items-center my-4">
             <div className="flex flex-col text-center lg:mx-6">
               <Image className="mx-3 w-14 h-14" src={Html5icon} alt="Html Icon" />
@@ -65,7 +65,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-col justify-center my-8">
-          <span className="ml-2 font-extrabold text-cyan-400">Libraries & Frameworks</span>
+          <p className="ml-2 font-extrabold text-cyan-400">Libraries & Frameworks</p>
           <div className="flex flex-row justify-between flex-wrap items-end my-4">
             <div className="flex flex-col text-center">
               <Image className="mx-3" src={ReactIcon} alt="React Icon" />
@@ -104,7 +104,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-col justify-center my-8">
-          <span className="ml-2 text-center font-extrabold text-cyan-400">Software & Tools</span>
+          <p className="ml-2 text-center lg:text-left font-extrabold text-cyan-400 ">Software & Tools</p>
           <div className="flex flex-row justify-center flex-wrap items-end my-4">
             <div className="flex flex-col text-center mx-6">
               <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
