@@ -3,7 +3,6 @@ import ProfilePic from "@/public/ProfilePic.jpg";
 import Image from "next/image";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
-import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -36,7 +35,6 @@ export default function Home() {
 
       <Skills />
       <Experience />
-      <ContactForm />
     </section>
   );
 }

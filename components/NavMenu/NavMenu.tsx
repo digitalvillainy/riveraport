@@ -5,6 +5,7 @@ import Image from "next/image";
 import GitHubIcon from '@/public/GitHub.svg'
 import BitBucketIcon from '@/public/BitBucket.svg'
 import RbmLogo from '@/public/RbmLogo.svg'
+import email from '@/public/email.svg'
 
 export default function NavMenu() {
   const [toggle, setToggle] = useState<boolean>(false);
@@ -41,15 +42,15 @@ export default function NavMenu() {
               <span className="hover:text-cyan-300">Experience</span>
             </Link>
           </li>
-          <li className="flex flex-row ml-8 !hover:text-cyan-300 cursor-pointer">
-            <Link href="#contact">
-              <div className="relative mr-8 mb-1">
-                <span className="w-5 h-5 bg-purple-700 hover:bg-cyan-300 z-40 absolute -left-8"></span>
-                <span className="w-5 h-5 bg-white absolute top-1 -left-7"></span>
-              </div>
-              <span className="hover:text-cyan-300">Contact</span>
-            </Link>
-          </li>
+          {/* <li className="flex flex-row ml-8 !hover:text-cyan-300 cursor-pointer"> */}
+          {/*   <Link href="#contact"> */}
+          {/*     <div className="relative mr-8 mb-1"> */}
+          {/*       <span className="w-5 h-5 bg-purple-700 hover:bg-cyan-300 z-40 absolute -left-8"></span> */}
+          {/*       <span className="w-5 h-5 bg-white absolute top-1 -left-7"></span> */}
+          {/*     </div> */}
+          {/*     <span className="hover:text-cyan-300">Contact</span> */}
+          {/*   </Link> */}
+          {/* </li> */}
         </ul>
       </div>
       <div
@@ -94,14 +95,10 @@ export default function NavMenu() {
                 Experience
               </Link>
             </li>
-            <li className="flex flex-row w-full justify-end py-3">
-              <Link href="#contact">
-                Contact
-              </Link>
-            </li>
             <li className="flex flex-row w-full justify-end place-items-center">
-              <Link href={'https://www.redbannermedia.com'} target='_blank'>
-                <Image className="mx-3" src={RbmLogo} alt='Logo for Red Banner Media' width={20} height={20} />
+
+              <Link href={'mailto:rrivera@redbannermedia.com'} target='_blank'>
+                <Image className='mb-3' src={email} alt='Mail' width={43} height={43} />
               </Link>
               <Link href={'https://www.bitbucket.com'} target='_blank'>
                 <Image className="mx-3" src={BitBucketIcon} alt='BitBucket Icon' width={23} height={23} />

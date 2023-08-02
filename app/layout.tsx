@@ -4,8 +4,8 @@ import NavMenu from '../components/NavMenu/NavMenu'
 import Image from 'next/image'
 import GitHubIcon from '../public/GitHub.svg'
 import BitBucketIcon from '../public/BitBucket.svg'
-import RbmLogo from '../public/RbmLogo.svg'
 import Link from 'next/link'
+import email from '@/public/email.svg'
 
 export const metadata: Metadata = {
   title: 'Roberto Rivera | Front-End Web Developer',
@@ -25,8 +25,8 @@ export default function RootLayout({
         <NavMenu />
         <div className='flex flex-col lg:flex-row lg:w-11/12 lg:mx-auto w-11/12 mx-auto h-fit'>
           <div className="lg:flex flex-col justify-end mb-16 mr-4 hidden">
-            <Link href={'https://www.redbannermedia.com'} target='_blank'>
-              <Image className='mb-3' src={RbmLogo} alt='Logo for Red Banner Media' width={43} height={43} />
+            <Link href={'mailto:rrivera@redbannermedia.com'} target='_blank'>
+              <Image className='mb-3' src={email} alt='Mail' width={43} height={43} />
             </Link>
             <Link href={'https://www.bitbucket.com'} target='_blank'>
               <Image src={BitBucketIcon} alt='BitBucket Icon' width={43} height={43} />
