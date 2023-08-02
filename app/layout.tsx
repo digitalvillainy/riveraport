@@ -26,13 +26,13 @@ export default function RootLayout({
         <div className='flex flex-col lg:flex-row w-full h-fit'>
           <div className="lg:flex flex-col justify-end mb-16 mr-4 hidden">
             <Link href={'mailto:rrivera@redbannermedia.com'} target='_blank'>
-              <Image className='mb-3' src={email} alt='Mail' width={43} height={43} />
+              <Image className='mb-3' src={email} alt='Mail' title='Email me!' width={43} height={43} />
             </Link>
             <Link href={'https://www.bitbucket.com'} target='_blank'>
-              <Image src={BitBucketIcon} alt='BitBucket Icon' width={43} height={43} />
+              <Image src={BitBucketIcon} alt='BitBucket Icon' title='BitBucket' width={43} height={43} />
             </Link>
             <Link href={'https://www.github.com/digitalvillainy'} target='_blank'>
-              <Image className='mt-4' src={GitHubIcon} alt='GitHub Icon' width={40} height={40} />
+              <Image className='mt-4' src={GitHubIcon} alt='GitHub Icon' title='GitHub' width={40} height={40} />
             </Link>
           </div>
 

@@ -11,9 +11,9 @@ export default function NavMenu() {
 
 
   return (
-    <nav>
+    <nav className="flex flex-row justify-end">
       <div className="hidden lg:flex flex-row justify-end w-full">
-        <ul className="flex flex-col lg:flex-row justify-between place-items-center w-fit lg:mr-10 2xl:mr-28 lg:mt-8">
+        <ul className="flex flex-col lg:flex-row justify-between place-items-center w-fit lg:mt-8">
           <li className="flex flex-row mx-8 place-items-center">
             <Link href="#about">
               <div className="relative mr-8 mb-1 cursor-pointer">
@@ -32,7 +32,7 @@ export default function NavMenu() {
               <span className="hover:text-cyan-300">Technology</span>
             </Link>
           </li>
-          <li className="flex flex-row mx-8 !hover:text-cyan-300 cursor-pointer">
+          <li className="flex flex-row ml-8 !hover:text-cyan-300 cursor-pointer">
             <Link href="#experience">
               <div className="relative mr-8 mb-1">
                 <span className="w-5 h-5 bg-purple-700 hover:bg-cyan-300 z-40 absolute -left-8"></span>
