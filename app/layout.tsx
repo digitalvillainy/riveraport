@@ -25,7 +25,7 @@ export default function RootLayout({
         <NavMenu />
         <div className='flex flex-col lg:flex-row w-full h-fit'>
           <div className="lg:flex flex-col justify-end mb-16 mr-4 hidden">
-            <Link href={'mailto:rrivera@redbannermedia.com'} target='_blank'>
+            <Link href={'mailto:roberto@redbannermedia.com'} target='_blank'>
               <Image className='mb-3' src={email} alt='Mail' title='Email me!' width={43} height={43} />
             </Link>
             <Link href={'https://www.bitbucket.com'} target='_blank'>
