@@ -4,7 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import GitHubIcon from '@/public/GitHub.svg'
 import BitBucketIcon from '@/public/BitBucket.svg'
-import RbmLogo from '@/public/RbmLogo.svg'
 import email from '@/public/email.svg'
 
 export default function NavMenu() {
@@ -42,15 +41,6 @@ export default function NavMenu() {
               <span className="hover:text-cyan-300">Experience</span>
             </Link>
           </li>
-          {/* <li className="flex flex-row ml-8 !hover:text-cyan-300 cursor-pointer"> */}
-          {/*   <Link href="#contact"> */}
-          {/*     <div className="relative mr-8 mb-1"> */}
-          {/*       <span className="w-5 h-5 bg-purple-700 hover:bg-cyan-300 z-40 absolute -left-8"></span> */}
-          {/*       <span className="w-5 h-5 bg-white absolute top-1 -left-7"></span> */}
-          {/*     </div> */}
-          {/*     <span className="hover:text-cyan-300">Contact</span> */}
-          {/*   </Link> */}
-          {/* </li> */}
         </ul>
       </div>
       <div
