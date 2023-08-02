@@ -105,7 +105,7 @@ export default function Skills() {
 
         <div className="flex flex-col justify-center my-8">
           <p className="ml-2 text-center lg:text-left font-extrabold text-cyan-400 ">Software & Tools</p>
-          <div className="flex flex-row justify-center flex-wrap items-end my-4">
+          <div className="flex flex-row justify-start flex-wrap items-end my-4">
             <div className="flex flex-col text-center mx-6">
               <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
               <span className="text-red-800 font-extrabold">GitHub</span>
