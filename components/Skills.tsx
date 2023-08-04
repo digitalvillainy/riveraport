@@ -59,7 +59,7 @@ export default function Skills() {
             </div>
 
             <div className="flex flex-col text-center lg:mx-6 my-2">
-              <Image className="mx-3 w-14 h-14" src={MysqlIcon} alt="MySql Icon" />
+              <Image className="mx-3 w-14 h-14 xl:w-16 xl:h-16" src={MysqlIcon} alt="MySql Icon" />
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function Skills() {
               <Image className="mx-3 w-14 h-14" src={JqueryIcon} alt="jQuery Icon" />
             </div>
             <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-16 h-16" src={ExpressIcon} alt="Express Icon" />
+              <Image className="mx-3 w-16 h-16 xl:w-20 xl:h-20" src={ExpressIcon} alt="Express Icon" />
             </div>
             <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-14 h-14" src={NextJsIcon} alt="Next Js Icon" />
