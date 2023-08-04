@@ -65,7 +65,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-col justify-center my-8">
-          <p className="ml-2 font-extrabold text-cyan-400">Libraries & Frameworks</p>
+          <p className="ml-2 text-center lg:text-left font-extrabold text-cyan-400">Libraries & Frameworks</p>
           <div className="flex flex-row justify-between flex-wrap items-end my-4">
             <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-14 h-14" src={ReactIcon} alt="React Icon" />

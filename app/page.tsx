@@ -28,7 +28,7 @@ export default function Home() {
           </p>
           <p className="my-2">
             As a self-taught developer, I make it my business to stay on top of current trends in technology and have learned the value in being
-            flexible. I am always look for the right tool for the right job. That may mean I work on a LAMP stack one week or using a light-weight
+            flexible. I am always on the look-out for the right tool for the right job. That may mean I work on a LAMP stack one week or use a light-weight
             framework like Alpinejs on simple static pages. Regardless, I’m always excited to find a new challenge.
           </p>
         </BoxContainer>
