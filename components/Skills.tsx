@@ -34,32 +34,32 @@ export default function Skills() {
         <div className="flex flex-col">
           <p className="ml-2 font-extrabold w-full text-center lg:text-left text-cyan-400">Languages</p>
           <div className="flex flex-row flex-wrap justify-between place-items-center my-4">
-            <div className="flex flex-col text-center lg:mx-6">
+            <div className="flex flex-col text-center lg:mx-6 my-2">
               <Image className="mx-3 w-14 h-14" src={Html5icon} alt="Html Icon" />
               <span className="text-red-800 font-extrabold">HTML 5</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6">
+            <div className="flex flex-col text-center lg:mx-6 my-2">
               <Image className="mx-3 w-14 h-14" src={JSicon} alt="JavaScript Icon" />
               <span className="text-red-800 font-extrabold">JavaScript</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6">
-              <Image className="mx-3" src={CssIcon} alt="CSS3 Icon" />
+            <div className="flex flex-col text-center lg:mx-6 my-2">
+              <Image className="mx-3 w-14 h-14" src={CssIcon} alt="CSS3 Icon" />
               <span className="text-red-800 font-extrabold">CSS</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6">
-              <Image className="mx-3" src={TsIcon} alt="Typescript Icon" />
+            <div className="flex flex-col text-center lg:mx-6 my-2">
+              <Image className="mx-3 w-14 h-14" src={TsIcon} alt="Typescript Icon" />
               <span className="text-red-800 font-extrabold">Typescript</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6">
-              <Image className="mx-3" src={PhpIcon} alt="PHP Icon" />
+            <div className="flex flex-col text-center lg:mx-6 my-2">
+              <Image className="mx-3 w-14 h-14" src={PhpIcon} alt="PHP Icon" />
             </div>
-            <div className="flex flex-col text-center lg:mx-6">
-              <Image className="mx-3" src={NodeIcon} alt="Node Icon" />
+            <div className="flex flex-col text-center lg:mx-6 my-2">
+              <Image className="mx-3 w-14 h-14" src={NodeIcon} alt="Node Icon" />
               <span className="text-red-800 font-extrabold">Node JS</span>
             </div>
 
-            <div className="flex flex-col text-center lg:mx-6">
-              <Image className="mx-3" src={MysqlIcon} alt="MySql Icon" />
+            <div className="flex flex-col text-center lg:mx-6 my-2">
+              <Image className="mx-3 w-14 h-14" src={MysqlIcon} alt="MySql Icon" />
             </div>
           </div>
         </div>
@@ -67,37 +67,37 @@ export default function Skills() {
         <div className="flex flex-col justify-center my-8">
           <p className="ml-2 font-extrabold text-cyan-400">Libraries & Frameworks</p>
           <div className="flex flex-row justify-between flex-wrap items-end my-4">
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={ReactIcon} alt="React Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={ReactIcon} alt="React Icon" />
               <span className="text-red-800 font-extrabold">React</span>
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={VueIcon} alt="Vue Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={VueIcon} alt="Vue Icon" />
               <span className="text-red-800 font-extrabold">Vue</span>
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={TailWindIcon} alt="TailWind Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={TailWindIcon} alt="TailWind Icon" />
               <span className="text-red-800 font-extrabold">TailWind</span>
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={BootStrapIcon} alt="BootStrap Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={BootStrapIcon} alt="BootStrap Icon" />
               <span className="text-red-800 font-extrabold">BootStrap</span>
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={AlpineJsIcon} alt="Alpine Js Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={AlpineJsIcon} alt="Alpine Js Icon" />
               <span className="text-red-800 font-extrabold">Alpine Js</span>
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={SassIcon} alt="Sass Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={SassIcon} alt="Sass Icon" />
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={JqueryIcon} alt="jQuery Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={JqueryIcon} alt="jQuery Icon" />
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={ExpressIcon} alt="Express Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-16 h-16" src={ExpressIcon} alt="Express Icon" />
             </div>
-            <div className="flex flex-col text-center">
-              <Image className="mx-3" src={NextJsIcon} alt="Next Js Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={NextJsIcon} alt="Next Js Icon" />
               <span className="text-red-800 font-extrabold">Next Js</span>
             </div>
           </div>
@@ -105,34 +105,34 @@ export default function Skills() {
 
         <div className="flex flex-col justify-center my-8">
           <p className="ml-2 text-center lg:text-left font-extrabold text-cyan-400 ">Software & Tools</p>
-          <div className="flex flex-row justify-start flex-wrap items-end my-4">
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={GitHubIcon} alt="GitHub Icon" />
+          <div className="flex flex-row justify-between flex-wrap items-end my-4">
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={GitHubIcon} alt="GitHub Icon" />
               <span className="text-red-800 font-extrabold">GitHub</span>
             </div>
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={GitIcon} alt="Git Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={GitIcon} alt="Git Icon" />
               <span className="text-red-800 font-extrabold">Git</span>
             </div>
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={BitBucketIcon} alt="BitBucket Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={BitBucketIcon} alt="BitBucket Icon" />
               <span className="text-red-800 font-extrabold">BitBucket</span>
             </div>
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={ApacheIcon} alt="Apache Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={ApacheIcon} alt="Apache Icon" />
               <span className="text-red-800 font-extrabold">Apache</span>
             </div>
 
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={DockerIcon} alt="Docker Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={DockerIcon} alt="Docker Icon" />
               <span className="text-red-800 font-extrabold">Docker</span>
             </div>
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={StoryBookIcon} alt="StoryBook Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={StoryBookIcon} alt="StoryBook Icon" />
               <span className="text-red-800 font-extrabold">Storybook</span>
             </div>
-            <div className="flex flex-col text-center mx-6">
-              <Image className="mx-3 w-16 h-16" src={FigmaIcon} alt="Figma Icon" />
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-10 h-10" src={FigmaIcon} alt="Figma Icon" />
               <span className="text-red-800 font-extrabold">Figma</span>
             </div>
           </div>

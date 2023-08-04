@@ -8,11 +8,13 @@ export default function Home() {
   return (
     <section className="flex flex-col justify-items-center">
       <div className="flex flex-col lg:flex-row relative w-full" id="about">
-        <BoxContainer classes="w-fit my-4 h-fit">
-          <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
-        </BoxContainer>
+        <div className="flex flex-row justify-center w-full lg:justify-start 2xl:flex-col 2xl:w-fit">
+          <BoxContainer classes="w-fit my-4 h-fit xs:justify-self-center">
+            <Image src={ProfilePic} alt="Roberto Rivera" className="rounded-tl-xl rounded-br-xl h-auto w-52" />
+          </BoxContainer>
+        </div>
         <h4 className="lg:hidden text-3xl text-cyan-400 text-center">About</h4>
-        <BoxContainer classes="w-full mt-6 mt-0 lg:w-11/12 lg:mx-auto h-fit">
+        <BoxContainer classes="w-full mt-6 mt-0 lg:w-11/12 2xl:w-full lg:mx-auto h-fit">
           <h1 className="text-2xl text-cyan-400 mb-8 font-extrabold">
             Hello Everyone!
           </h1>

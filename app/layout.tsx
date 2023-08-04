@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 import NavMenu from '../components/NavMenu/NavMenu'
 import Image from 'next/image'
-import GitHubIcon from '../public/GitHub.svg'
-import BitBucketIcon from '../public/BitBucket.svg'
+import GitHubIcon from '@/public/GitHub.svg'
+import BitBucketIcon from '@/public/BitBucket.svg'
 import Link from 'next/link'
 import email from '@/public/email.svg'
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='w-fit'>
-      <body className='w-fit xl:w-10/12 xl:mx-auto'>
+      <body className='w-fit xl:w-11/12 xl:mx-auto 2xl:8/12'>
         <NavMenu />
         <div className='flex flex-col lg:flex-row w-full h-fit'>
           <div className="lg:flex flex-col justify-end mb-16 mr-4 hidden">
@@ -36,8 +36,8 @@ export default function RootLayout({
             </Link>
           </div>
 
-          <div className='w-full grow'>
-            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 p-5 grow w-full'>
+          <div className='w-full'>
+            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 p-5 grow w-10/12 xl:w-full 2xl:w-full xl:mx-0'>
               <div className='mb-4'>
                 <h1 className='text-4xl'>Roberto Rivera</h1>
                 <span className='text-lg'>Front-End Web Developer</span>
