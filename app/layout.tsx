@@ -37,7 +37,7 @@ export default function RootLayout({
           </div>
 
           <div className='w-full'>
-            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl my-5 p-5 grow w-10/12 xl:w-full 2xl:w-full xl:mx-0'>
+            <main className='border-2 border-[#AD00EA] rounded-tl-2xl rounded-br-2xl mx-auto my-5 p-5 grow w-10/12 xl:w-full 2xl:w-full xl:mx-0'>
               <div className='mb-4'>
                 <h1 className='text-4xl'>Roberto Rivera</h1>
                 <span className='text-lg'>Front-End Web Developer</span>
