@@ -8,7 +8,7 @@ import Link from 'next/link'
 import email from '@/public/email.svg'
 
 export const metadata: Metadata = {
-  title: 'Roberto Rivera | Front-End Web Developer',
+  title: 'Roberto Rivera | Full Stack Web Developer',
   description: 'The portfolio of Roberto Rivera. Professional web developer available for full time hire or freelance.',
 }
 
