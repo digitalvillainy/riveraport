@@ -9,7 +9,7 @@ export default function() {
           <span className="font-extrabold text-cyan-400">
             Productive Edge, Chicago Illinois (Remote) — Front-End Web Developer III
           </span>
-          <p className="my-2 font-extrabold">April 2022 - Present</p>
+          <p className="my-2 font-extrabold">April 2022 - February 2024</p>
           <p className="my-2">Planned the front-end architecture for development of websites and web applications for clients.</p>
           <p className="my-2">
             Coordinated with back-end developers, project managers, and clients to

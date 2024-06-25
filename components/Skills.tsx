@@ -5,18 +5,13 @@ import JSicon from '@/public/JSicon.svg';
 import CssIcon from '@/public/CssIcon.svg';
 import TsIcon from '@/public/TypeScriptIcon.svg';
 import PhpIcon from '@/public/PhpIcon.svg';
-import NodeIcon from '@/public/NodeIcon.svg';
 import ReactIcon from '@/public/ReactIcon.svg';
 import VueIcon from '@/public/VueIcon.svg';
 import TailWindIcon from '@/public/TailWind.svg';
-import BootStrapIcon from '@/public/BootStrap.svg';
 import AlpineJsIcon from '@/public/AlpineIcon.svg';
-import SassIcon from '@/public/Sass.svg';
-import JqueryIcon from '@/public/JQueryIcon.svg';
-import ExpressIcon from '@/public/ExpressIcon.svg';
-import NextJsIcon from '@/public/NextJs.svg';
+import LaravelIcon from '@/public/LaravelIcon.svg';
+import LaravelLivewireIcon from '@/public/LaravelLivewire.svg';
 import GitHubIcon from '@/public/GitHub.svg';
-import BitBucketIcon from '@/public/BitBucket.svg';
 import ApacheIcon from '@/public/ApacheIcon.svg';
 import GitIcon from '@/public/GitIcon.svg';
 import DockerIcon from '@/public/DockerIcon.svg';
@@ -34,7 +29,7 @@ export default function Skills() {
         <div className="flex flex-col">
           <p className="ml-2 font-extrabold w-full text-center lg:text-left text-cyan-400">Languages</p>
           <div className="flex flex-row flex-wrap justify-between place-items-center my-4">
-            <div className="flex flex-col text-center lg:mx-6 my-2">
+            <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-14 h-14" src={Html5icon} alt="Html Icon" />
               <span className="text-red-800 font-extrabold">HTML 5</span>
             </div>
@@ -51,15 +46,10 @@ export default function Skills() {
               <span className="text-red-800 font-extrabold">Typescript</span>
             </div>
             <div className="flex flex-col text-center lg:mx-6 my-2">
-              <Image className="mx-3 w-14 h-14" src={PhpIcon} alt="PHP Icon" />
+              <Image className="mx-3 w-24 h-24" src={PhpIcon} alt="PHP Icon" />
             </div>
             <div className="flex flex-col text-center lg:mx-6 my-2">
-              <Image className="mx-3 w-14 h-14" src={NodeIcon} alt="Node Icon" />
-              <span className="text-red-800 font-extrabold">Node JS</span>
-            </div>
-
-            <div className="flex flex-col text-center lg:mx-6 my-2">
-              <Image className="mx-3 w-14 h-14 xl:w-16 xl:h-16" src={MysqlIcon} alt="MySql Icon" />
+              <Image className="mx-3 w-24 h-18" src={MysqlIcon} alt="MySql Icon" />
             </div>
           </div>
         </div>
@@ -76,29 +66,20 @@ export default function Skills() {
               <span className="text-red-800 font-extrabold">Vue</span>
             </div>
             <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={LaravelIcon} alt="Laravel Icon" />
+              <span className="text-red-800 font-extrabold">Laravel</span>
+            </div>
+            <div className="flex flex-col text-center my-2">
+              <Image className="mx-3 w-14 h-14" src={LaravelLivewireIcon} alt="Livewire Icon" />
+              <span className="text-red-800 font-extrabold">Livewire</span>
+            </div>
+            <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-14 h-14" src={TailWindIcon} alt="TailWind Icon" />
               <span className="text-red-800 font-extrabold">TailWind</span>
             </div>
             <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-14 h-14" src={BootStrapIcon} alt="BootStrap Icon" />
-              <span className="text-red-800 font-extrabold">BootStrap</span>
-            </div>
-            <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-14 h-14" src={AlpineJsIcon} alt="Alpine Js Icon" />
               <span className="text-red-800 font-extrabold">Alpine Js</span>
-            </div>
-            <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-14 h-14" src={SassIcon} alt="Sass Icon" />
-            </div>
-            <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-14 h-14" src={JqueryIcon} alt="jQuery Icon" />
-            </div>
-            <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-16 h-16 xl:w-20 xl:h-20" src={ExpressIcon} alt="Express Icon" />
-            </div>
-            <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-14 h-14" src={NextJsIcon} alt="Next Js Icon" />
-              <span className="text-red-800 font-extrabold">Next Js</span>
             </div>
           </div>
         </div>
@@ -113,10 +94,6 @@ export default function Skills() {
             <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-10 h-10" src={GitIcon} alt="Git Icon" />
               <span className="text-red-800 font-extrabold">Git</span>
-            </div>
-            <div className="flex flex-col text-center my-2">
-              <Image className="mx-3 w-10 h-10" src={BitBucketIcon} alt="BitBucket Icon" />
-              <span className="text-red-800 font-extrabold">BitBucket</span>
             </div>
             <div className="flex flex-col text-center my-2">
               <Image className="mx-3 w-10 h-10" src={ApacheIcon} alt="Apache Icon" />

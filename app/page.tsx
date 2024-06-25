@@ -22,7 +22,7 @@ export default function Home() {
             Looking for someone that can make something for the web? I love making things for the web!
           </span>
           <p className="mt-2 mb-4">
-            I have been a web developer since 2018, and during that time I have had the privilege to work for a variety of clients.
+            I have been a Full Stack Web Developer since 2018, and during that time I have had the privilege to work for a variety of clients.
             From web apps that help streamline a process to web sites that bring in customers, I not only build the things that clients want,
             I build the things that their business needs.
           </p>
