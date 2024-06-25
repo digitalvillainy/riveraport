@@ -29,27 +29,29 @@ export default function Skills() {
         <div className="flex flex-col">
           <p className="ml-2 font-extrabold w-full text-center lg:text-left text-cyan-400">Languages</p>
           <div className="flex flex-row flex-wrap justify-between place-items-center my-4">
-            <div className="flex flex-col text-center my-2">
+            <div className="flex flex-col text-center">
               <Image className="mx-3 w-14 h-14" src={Html5icon} alt="Html Icon" />
               <span className="text-red-800 font-extrabold">HTML 5</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6 my-2">
+            <div className="flex flex-col text-center">
               <Image className="mx-3 w-14 h-14" src={JSicon} alt="JavaScript Icon" />
               <span className="text-red-800 font-extrabold">JavaScript</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6 my-2">
+            <div className="flex flex-col text-center">
               <Image className="mx-3 w-14 h-14" src={CssIcon} alt="CSS3 Icon" />
               <span className="text-red-800 font-extrabold">CSS</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6 my-2">
+            <div className="flex flex-col text-center">
               <Image className="mx-3 w-14 h-14" src={TsIcon} alt="Typescript Icon" />
               <span className="text-red-800 font-extrabold">Typescript</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6 my-2">
-              <Image className="mx-3 w-24 h-24" src={PhpIcon} alt="PHP Icon" />
+            <div className="flex flex-col text-center">
+              <Image className="mx-3 w-14 h-14" src={PhpIcon} alt="PHP Icon" />
+              <span className="text-red-800 font-extrabold">PHP</span>
             </div>
-            <div className="flex flex-col text-center lg:mx-6 my-2">
-              <Image className="mx-3 w-24 h-18" src={MysqlIcon} alt="MySql Icon" />
+            <div className="flex flex-col text-center">
+              <Image className="mx-3 w-14 h-14" src={MysqlIcon} alt="MySql Icon" />
+              <span className="text-red-800 font-extrabold">MySql</span>
             </div>
           </div>
         </div>
