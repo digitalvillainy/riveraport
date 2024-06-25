@@ -6,6 +6,7 @@ import GitHubIcon from '@/public/GitHub.svg'
 import BitBucketIcon from '@/public/BitBucket.svg'
 import Link from 'next/link'
 import email from '@/public/email.svg'
+import FileIcon from '@/public/ResumeIcon.svg'
 
 export const metadata: Metadata = {
   title: 'Roberto Rivera | Full Stack Web Developer',
@@ -28,6 +29,11 @@ export default function RootLayout({
             <Link href={'mailto:roberto@robertorivera.dev'} target='_blank'>
               <Image className='mb-3' src={email} alt='Mail' title='Email me!' width={43} height={43} />
             </Link>
+
+            <Link href={'/Roberto_Rivera_Resume_2024.pdf'} locale={false} download='pdf' className="mb-3">
+              <Image src={FileIcon} alt='Resume Icon' title='Resume' width={40} height={40} />
+            </Link>
+
             <Link href={'https://www.bitbucket.com'} target='_blank'>
               <Image src={BitBucketIcon} alt='BitBucket Icon' title='BitBucket' width={43} height={43} />
             </Link>
