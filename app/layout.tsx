@@ -31,7 +31,7 @@ export default function RootLayout({
             </Link>
 
             <Link href={'/Roberto_Rivera_Resume_2024.pdf'} target='_blank' locale={false} download='Roberto_Rivera_Resume.pdf' className="mb-3">
-              <Image src={FileIcon} alt='Resume Icon' title='Resume' width={40} height={40} />
+              <Image src={FileIcon} alt='Resume Icon' title='Resume' width={35} height={35} />
             </Link>
 
             <Link href={'https://www.bitbucket.com'} target='_blank'>
