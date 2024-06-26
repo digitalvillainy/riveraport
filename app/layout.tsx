@@ -30,7 +30,7 @@ export default function RootLayout({
               <Image className='mb-3' src={email} alt='Mail' title='Email me!' width={43} height={43} />
             </Link>
 
-            <Link href={'/Roberto_Rivera_Resume_2024.pdf'} locale={false} download='pdf' className="mb-3">
+            <Link href={'/Roberto_Rivera_Resume_2024.pdf'} target='_blank' locale={false} download='Roberto_Rivera_Resume.pdf' className="mb-3">
               <Image src={FileIcon} alt='Resume Icon' title='Resume' width={40} height={40} />
             </Link>
 

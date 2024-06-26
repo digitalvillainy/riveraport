@@ -46,12 +46,10 @@ export default function Skills() {
               <span className="text-red-800 font-extrabold">Typescript</span>
             </div>
             <div className="flex flex-col text-center">
-              <Image className="mx-3 w-14 h-14" src={PhpIcon} alt="PHP Icon" />
-              <span className="text-red-800 font-extrabold">PHP</span>
+              <Image className="mx-3 w-20 h-20" src={PhpIcon} alt="PHP Icon" />
             </div>
             <div className="flex flex-col text-center">
-              <Image className="mx-3 w-14 h-14" src={MysqlIcon} alt="MySql Icon" />
-              <span className="text-red-800 font-extrabold">MySql</span>
+              <Image className="mx-3 w-20 h-20" src={MysqlIcon} alt="MySql Icon" />
             </div>
           </div>
         </div>
